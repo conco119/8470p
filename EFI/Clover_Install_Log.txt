@@ -1,0 +1,39 @@
+
+Clover EFI installer log - Mon Dec  4 19:22:20 ICT 2017
+Installer version: v2.4k r4330.RM-4456.06db6224 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *5.4 GB     disk0
+   1:                        EFI                         209.7 MB   disk0s1
+   2:                  Apple_HFS LionInstaller           5.0 GB     disk0s2
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *42.9 GB    disk1
+   1:                        EFI                         209.7 MB   disk1s1
+   2:                  Apple_HFS Untitled 1              42.6 GB    disk1s2
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:        CD_partition_scheme                        *4.1 MB     disk2
+   1:     Apple_partition_scheme                         3.5 MB     disk2s0
+   2:        Apple_partition_map                         32.3 KB    disk2s0s1
+   3:                  Apple_HFS VMware Tools            3.5 MB     disk2s0s2
+/dev/disk3
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *31.0 GB    disk3
+   1:                 DOS_FAT_32 USBCLOVER               504.3 MB   disk3s1
+   2:                  Apple_HFS OS X Base System        30.5 GB    disk3s2
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/USBCLOVER
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/USBCLOVER
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
