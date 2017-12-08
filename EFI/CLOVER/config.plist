@@ -601,7 +601,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1</string>
+		<string>-v dart=0 kext-dev-mode=1</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -739,7 +739,7 @@
 				<key>Comment</key>
 				<string>AppleHDA .xml.zl to .zml.zl</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				LnhtbC56bA==
@@ -773,7 +773,7 @@
 				<key>Comment</key>
 				<string>AirPortBrcm4360 whitelist patch (board-id), 10.13.beta9, credit RehabMan</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				SDtF4HUU
@@ -809,7 +809,7 @@
 				<key>Comment</key>
 				<string>AirPortBrcm4360 whitelist patch (board-id), 10.11.x, credit RehabMan</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				MdtMO2XYdRI=
@@ -827,7 +827,7 @@
 				<key>Comment</key>
 				<string>AirPortBrcm4360 whitelist patch (board-id), 10.10.5, credit RehabMan</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				MdtJiwQkSDtF2HUS
@@ -1019,7 +1019,7 @@
 				<key>Comment</key>
 				<string>IDT 7605 #1 of 4</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				PYsZ1BE=
@@ -1035,7 +1035,7 @@
 				<key>Comment</key>
 				<string>IDT 7605 #2 of 4</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				PYQZ1BE=
@@ -1051,7 +1051,7 @@
 				<key>Comment</key>
 				<string>IDT 7605 #3 of 4</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				PYMZ1BE=
@@ -1067,7 +1067,7 @@
 				<key>Comment</key>
 				<string>IDT 7605 #4 of 4</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				PYoZ1BE=
